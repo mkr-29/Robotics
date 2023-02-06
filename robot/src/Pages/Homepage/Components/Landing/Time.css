@@ -1,0 +1,101 @@
+@font-face {
+  font-family: brunoace;
+  src: url(../../../../Assets/BrunoAce-Regular.ttf);
+}
+.timer {
+  display: inline-block;
+  text-align: center;
+  width: 1257px;
+  height: 412px;
+  background: rgba(44, 71, 47, 0.36);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 19px 23px 32px -16px rgba(214, 255, 216, 0.45);
+}
+.timer-h{
+  font-family: brunoace;
+  color: #93F5A5;
+  font-size: 32px;
+}
+.col-4 {
+  background: #001801;
+  border-radius: 22px;
+  width: 199px;
+  height: 199px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.t-colon{
+  margin: 0;
+  font-size: 10rem;
+  color: white;
+  font-family: 'Poppins';
+  margin-bottom: 3rem;
+}
+.col-4:last-child .box {
+  border-right-color: transparent;
+}
+
+.box p {
+  font-size: calc(16px + 2vmin);
+  margin: 0;
+}
+
+#day,
+#hour,
+#minute,
+#second,
+.text {
+  font-family: 'Audiowide';
+  font-size: 64px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  #day,
+  #hour,
+  #minute,
+  #second,
+  .text {
+    font-size: 16px;
+  }
+  .text{
+    font-size: 7px;
+  }
+  .col-4{
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .t-colon{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .t-time{
+    gap: 0.3rem;
+  }
+  .timer{
+    height: 10rem;
+    width: 90vw;
+  }
+  .timer-h{
+    font-size: 25px;
+  }
+}

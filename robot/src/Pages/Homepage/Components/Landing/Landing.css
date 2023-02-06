@@ -1,0 +1,63 @@
+@font-face {
+    font-family: bruno;
+    src: url(../../../../Assets/BrunoAceSC-Regular.ttf);
+}
+.r-landing{
+    background: url(./Assets/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    gap: 5rem;
+}
+.r-landing-title{
+    font-family: bruno;
+    font-size: 150px;
+    color: white;
+    margin-top: 18rem;
+}
+.l-orn{
+    position: absolute;
+}
+.r-landing-ornaments :nth-child(1){
+    top: 14rem;
+    left: 10rem;
+}
+.r-landing-ornaments :nth-child(2){
+    top: 14rem;
+    right: 11rem;
+}
+.r-landing-ornaments :nth-child(3){
+    top: 29rem;
+    right: 21rem;
+}
+
+@media screen and (max-width: 400px){
+    .r-landing-title{
+        margin-top: 17rem;
+        font-size: 60px;
+    }
+    .r-landing-ornaments :nth-child(1){
+        width: 50%;
+        top: 15rem;
+        left: 0;
+    }
+    .r-landing-ornaments :nth-child(2){
+        width: 20%;
+        top: 17rem;
+        right: 0;
+    }
+    .r-landing-ornaments :nth-child(3){
+        width: 50%;
+        top: 23rem;
+        right: 1rem;
+    }
+    .r-landing{
+        height: 100vh;
+        gap: 7rem;
+    }
+}

@@ -26,41 +26,47 @@
   align-items: center;
   height: 100%;
 }
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .nav-items ul {
   position: relative;
   display: flex;
   height: 10vh;
   gap: 3rem;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 15rem;
 }
 .nav-items ul {
   list-style: none;
 }
 .nav-items ul li a {
-  font-size: 24px;
-  font-family: 'Poppins';
-  font-weight: 300;
+  font-size: 20px;
+  font-family: 'Audiowide';
   cursor: pointer;
 }
 .nav-items ul a {
   color: rgb(189, 186, 186);
   text-decoration: none;
 }
-.nav-items ul li a:hover::after {
-  width: 100%;
-}
 .nav-items ul li a:hover {
   color: #fff;
-  /* font-weight: 500; */
 }
 .nav-items ul li a::after {
   content: "";
   display: block;
   width: 0;
   height: 2px;
-  background: rgb(255,255,255);
+  background: #87EE8C;
   transition: 0.3s;
+}
+.nav-items ul li a:hover::after {
+  width: 70%;
+  margin-left: 15%;
 }
 .header-nav-lines,
 .header-nav-line {
@@ -71,6 +77,25 @@
   display: none;
 }
 
+.r-registration{
+  background: #015305;
+  border-radius: 10px;
+  width: 244px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Audiowide';
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+.r-registration:hover{
+  box-shadow: 0px 0px 25px -1px #98FEAF;
+}
+.r-regnow{
+  display: none;
+}
 @media (max-width: 1100px) {
   .nav-items ul {
     gap: 2rem;
@@ -104,6 +129,7 @@
     left: 0;
     justify-content: start;
     overflow: hidden;
+    margin-left: 0;
   }
   
   .header-wrapper.active .nav-items ul {
@@ -113,6 +139,7 @@
     width: 100vw;
     height: 100vh;
     transition: all 400ms ease;
+    margin-left: 0;
   }
   .header-wrapper.active .header-nav-lines {
     display: inline;
@@ -147,5 +174,28 @@
   .header-logojyc img{
     width: 6rem;
     height: 1.8rem;
+  }
+  .r-registration{
+    display: none;
+  }
+  .r-regnow{
+    display: block;
+    background: #015305;
+    border-radius: 10px;
+    width: 244px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Audiowide';
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .r-regnow:hover{
+  box-shadow: 0px 0px 25px -1px #98FEAF;
+  }
+  .nav-items ul li .r-regnow:hover::after{
+    display: none;
   }
 }
