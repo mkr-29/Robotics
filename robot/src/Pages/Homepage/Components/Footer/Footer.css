@@ -1,0 +1,50 @@
+.r-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+}
+.r-footer hr{
+    line-height: 1px;
+    width: 74rem;
+}
+.footer-up{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-up div{
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    gap: 1rem;
+}
+.follow-us{
+    display: flex;
+    justify-content: space-between;
+    width: 74rem;
+    padding: 2rem 0;
+    color: white;
+    align-items: center;
+}
+.follow-us a{
+    font-size: 14px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.conus a{
+    font-size: 12px;
+}
+.footend{
+    color: #828282;
+}
+.footend a{
+    font-size: 1rem;
+    color: #828282;
+}

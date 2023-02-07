@@ -1,0 +1,26 @@
+.r-schedule{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+}
+.r-heading{
+    display: flex;
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    -webkit-text-stroke: 3px #93F5A5;
+    color: #001802;
+    width: 100%;
+    justify-content: space-around;
+}
+.sorn1{
+
+}
+.r-dropdowns{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
