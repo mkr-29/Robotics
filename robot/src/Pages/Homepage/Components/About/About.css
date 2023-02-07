@@ -1,0 +1,34 @@
+.r-about{
+    width: 100%;
+    display: flex;
+    background-color: #001802;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    height: 200vh;
+}
+.r-about-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.r-abhout-title{
+    font-family: 'Audiowide';
+    font-weight: 400;
+    font-size: 130px;
+    -webkit-text-stroke: 3px #93F5A5;
+    color: #001802;;
+}
+
+@media screen and (max-width: 400px) {
+    .r-abhout-title{
+        font-size: 50px;
+    }
+    .aron1{
+        width: 20%;
+    }
+    .r-about{
+        height: 137vh;
+    }
+}

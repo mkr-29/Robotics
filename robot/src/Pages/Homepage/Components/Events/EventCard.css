@@ -1,0 +1,30 @@
+.e-card{
+    margin-top: 2rem;
+    background: linear-gradient(94.37deg, rgba(1, 71, 7, 0.53) 1.03%, rgba(1, 71, 7, 0.27081) 47.96%, rgba(1, 71, 7, 0.221938) 59.15%, rgba(1, 71, 7, 0.221938) 59.16%, rgba(0, 0, 0, 0.1855) 101.04%);
+    border-radius: 18px;
+    width: 90vw;
+    height: 20rem;
+}
+.e-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e-name{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    -webkit-text-stroke: 3px #93F5A5;
+    color: #001802;
+}
+.e-description{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+.e-img{
+    
+}
